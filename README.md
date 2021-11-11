@@ -1,4 +1,4 @@
-![linkedin_banner_image_2](md-images/logo.png)
+<img src="md-images/logo.png" alt="linkedin_banner_image_2" style="zoom: 50%;" />
 
 ---
 

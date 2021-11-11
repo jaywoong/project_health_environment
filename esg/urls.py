@@ -21,4 +21,8 @@ from esg import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
+    path('health', views.health, name='health'),
+    path('environment', views.environment, name='environment'),
+    path('corr', views.corr, name='corr'),
+    path('use', views.use, name='use'),
 ]
