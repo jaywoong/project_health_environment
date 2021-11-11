@@ -48,8 +48,9 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: Open Sans, sans-serif;
+  --font-family-sans-serif: 'Open Sans', sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
 }
 
 *,
@@ -59,7 +60,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family:  sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -70,6 +71,7 @@ html {
 @-ms-viewport {
   width: device-width;
 }
+
 
 article,
 aside,
@@ -86,7 +88,7 @@ section {
 
 body {
   margin: 0;
-  font-family: Open Sans, sans-serif;
+  font-family:  'Open Sans', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -13291,6 +13293,8 @@ a.text-darker:focus {
 
 iframe {
   border: 0;
+  width: 100%;
+
 }
 
 figcaption,
@@ -13501,7 +13505,7 @@ button.bg-lighter:focus {
 }
 
 .bg-gradient-default {
-  background: linear-gradient(87deg, #172b4d 0, #1a174d 100%) !important;
+  background: linear-gradient(87deg, #56ab2f 0, #cae35b 100%) !important;
 }
 
 .bg-gradient-white {
@@ -13796,7 +13800,7 @@ button.section-darker:focus {
 }
 
 .bg-gradient-default {
-  background: linear-gradient(87deg, #172b4d 0, #1a174d 100%) !important;
+  background: linear-gradient(87deg, #56ab2f 0, #cae35b 100%) !important;
 }
 
 .bg-gradient-white {
