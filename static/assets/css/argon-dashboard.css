@@ -730,8 +730,8 @@ pre code {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 .col {
@@ -15588,8 +15588,8 @@ a.btn-icon-only {
 
 @media (min-width: 768px) {
   .main-content .container-fluid {
-    padding-left: 39px !important;
-    padding-right: 39px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
   }
 }
 

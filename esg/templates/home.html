@@ -1,15 +1,28 @@
+<!--
 
+=========================================================
+* Argon Dashboard - v1.1.2
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/argon-dashboard
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md)
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
 <!DOCTYPE html>
 <html lang="en">
 {% load static %}
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>
     Environment Social Greener
   </title>
-  <!-- Favicon-->
+  <!-- Favicon -->
   <link href="{% static './assets/img/brand/earth.png' %}" rel="icon" type="image/png">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
@@ -21,36 +34,38 @@
 </head>
 
 <body class="">
+  <!-- Navbar 왼쪽 -->
   <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white" id="sidenav-main">
     <div class="container-fluid">
       <!-- Toggler -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#sidenav-collapse-main"
+              aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- Brand -->
-      <a class="navbar-brand pt-0" href="/home">
-        <img src="{% static './assets/img/brand/logo.jpg' %}" class="navbar-brand-img" alt="..." style="padding-top: 1.5rem;">
+      <a class="navbar-brand pt-0" href="/">
+        <img src="{% static './assets/img/brand/logo.jpg' %}" class="navbar-brand-img" alt="..." style="padding-top: 2rem;">
       </a>
-
       <!-- Collapse -->
-      <div class="collapse navbar-collapse" id="sidenav-collapse-main">
+      <div class="collapse navbar-collapse show" id="sidenav-collapse-main">
         <!-- Collapse header -->
         <div class="navbar-collapse-header d-md-none">
           <div class="row">
             <div class="col-6 collapse-brand">
-              <a href="">
-                <img src="{% static './assets/img/brand/blue.png' %}">
+              <a href="/home">
+                <img src="{% static './assets/img/brand/logo.jpg' %}">
               </a>
             </div>
             <div class="col-6 collapse-close">
-              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle sidenav">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#sidenav-collapse-main"
+                      aria-controls="sidenav-main" aria-expanded="true" aria-label="Toggle sidenav">
                 <span></span>
                 <span></span>
               </button>
             </div>
           </div>
         </div>
-        <!-- Navigation -->
+        <!-- Navigation 왼쪽 -->
         <ul class="navbar-nav">
           <li class="nav-item  active ">
             <a class="nav-link  active " href="/home">
@@ -80,186 +95,226 @@
         </ul>
         <!-- Divider -->
         <hr class="my-3">
-
       </div>
     </div>
   </nav>
+  <!-- End nav -->
+  <!-- 메인화면 -->
   <div class="main-content">
-    <!-- Navbar -->
+    <!-- Navbar 상단-->
     <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
       <div class="container-fluid">
-        <!-- Brand -->
-        <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="">프로젝트 개요</a>
+        <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block">프로젝트 개요</a>
       </div>
     </nav>
     <!-- End Navbar -->
-    <!-- Header -->
+    <!-- 1번째 컨텐츠 : 주제 -->
     <div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" style="min-height: 600px; background-size: cover; background-position: center top;">
       <!-- Mask -->
       <span class="mask bg-gradient-default opacity-8"></span>
-      <!-- Header container -->
       <div class="container-fluid d-flex align-items-center">
         <div class="row">
-          <div class="col-lg-7 col-md-10">
-            <h1 class="display-2 text-white">Hi There</h1>
-            <p class="text-white mt-0 mb-5">This is your profile page. You can see the progress you've made with your work and manage your projects or assigned tasks</p>
-            <a href="https://github.com/jaywoong/project_health_environment" target="_blank" class="btn btn-info">
+          <div class="col-lg-10 col-md-12" style="padding: 3rem;">
+            <h1 class="display-2 text-white"> 건강과 환경 상관관계 분석 및 시각화</h1>
+            <p class="text-white mt-1 mb-5"> 건강 데이터와 지역별 상수도 수질, 대기질 데이터를 시각화하고 환경이 지역사회 건강에 끼치는 영향을 분석하여, 환경오염에 따른 건강문제 개선 방안을 탐색한 프로젝트입니다.</p>
+            <a href="https://github.com/jaywoong/project_health_environment" target="_blank" class="btn btn-primary">
               <img src="/static/assets/img/icons/common/github.svg"> &nbsp; Github </a>
           </div>
         </div>
       </div>
     </div>
-    <!-- Page content -->
+    <!-- 1번째 컨텐츠 끝 -->
     <div class="container-fluid mt--7">
       <div class="row">
-        <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
-          <div class="card card-profile shadow">
-            <div class="row justify-content-center">
-              <div class="col-lg-3 order-lg-2">
-                <div class="card-profile-image">
-                  <a href="#">
-                    <img src="../assets/img/theme/team-4-800x800.jpg" class="rounded-circle">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
-              <div class="d-flex justify-content-between">
-                <a href="#" class="btn btn-sm btn-info mr-4">Connect</a>
-                <a href="#" class="btn btn-sm btn-default float-right">Message</a>
-              </div>
-            </div>
-            <div class="card-body pt-0 pt-md-4">
-              <div class="row">
-                <div class="col">
-                  <div class="card-profile-stats d-flex justify-content-center mt-md-5">
-                    <div>
-                      <span class="heading">22</span>
-                      <span class="description">Friends</span>
-                    </div>
-                    <div>
-                      <span class="heading">10</span>
-                      <span class="description">Photos</span>
-                    </div>
-                    <div>
-                      <span class="heading">89</span>
-                      <span class="description">Comments</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="text-center">
-                <h3>
-                  Jessica Jones<span class="font-weight-light">, 27</span>
-                </h3>
-                <div class="h5 font-weight-300">
-                  <i class="ni location_pin mr-2"></i>Bucharest, Romania
-                </div>
-                <div class="h5 mt-4">
-                  <i class="ni business_briefcase-24 mr-2"></i>Solution Manager - Creative Tim Officer
-                </div>
-                <div>
-                  <i class="ni education_hat mr-2"></i>University of Computer Science
-                </div>
-                <hr class="my-4" />
-                <p>Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music.</p>
-                <a href="#">Show more</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-8 order-xl-1">
+        <!-- 2번째 컨텐츠: 리드미  -->
+        <div class="col-xl-8 order-xl-1" style="margin-bottom: 5rem!important;">
           <div class="card bg-secondary shadow">
+            <!-- 2번째 컨텐츠 제목 -->
             <div class="card-header bg-white border-0">
               <div class="row align-items-center">
-                <div class="col-8">
-                  <h3 class="mb-0">My account</h3>
-                </div>
-                <div class="col-4 text-right">
-                  <a href="#!" class="btn btn-sm btn-primary">Settings</a>
+                <div class="col-12">
+                  <h2 class="mb-0">프로젝트 개요</h2>
                 </div>
               </div>
             </div>
+            <!-- 2번째 컨텐츠 글자들 -->
             <div class="card-body">
-              <form>
-                <h6 class="heading-small text-muted mb-4">User information</h6>
+              <!-- 프로젝트 주제 -->
+                <h3 class="text-muted mb-4">프로젝트 주제 </h3>
                 <div class="pl-lg-4">
                   <div class="row">
-                    <div class="col-lg-6">
-                      <div class="form-group">
-                        <label class="form-control-label" for="input-username">Username</label>
-                        <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Username" value="lucky.jesse">
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="form-group">
-                        <label class="form-control-label" for="input-email">Email address</label>
-                        <input type="email" id="input-email" class="form-control form-control-alternative" placeholder="jesse@example.com">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <div class="form-group">
-                        <label class="form-control-label" for="input-first-name">First name</label>
-                        <input type="text" id="input-first-name" class="form-control form-control-alternative" placeholder="First name" value="Lucky">
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="form-group">
-                        <label class="form-control-label" for="input-last-name">Last name</label>
-                        <input type="text" id="input-last-name" class="form-control form-control-alternative" placeholder="Last name" value="Jesse">
-                      </div>
+                    <div class="col-lg-12">
+                      <p>지역사회 건강결과 및 건강결정요인 데이터와 지역별 상수도 수질, 대기질 데이터를 활용하여
+                        환경이 지역사회 건강에 끼치는 영향을 분석하고 활용방안을 탐색한다.</p>
                     </div>
                   </div>
                 </div>
                 <hr class="my-4" />
-                <!-- Address -->
-                <h6 class="heading-small text-muted mb-4">Contact information</h6>
+                <!-- 프로젝트 필요성 -->
+                <h3 class="text-muted mb-4">프로젝트 필요성</h3>
                 <div class="pl-lg-4">
                   <div class="row">
                     <div class="col-md-12">
-                      <div class="form-group">
-                        <label class="form-control-label" for="input-address">Address</label>
-                        <input id="input-address" class="form-control form-control-alternative" placeholder="Home Address" value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09" type="text">
-                      </div>
+                      <p>세계적으로 많은 사람들이 환경오염으로 인해 발생하는 건강 문제에 고통받고 있다.
+                        저소득 국가일수록 또는 저소득 계층일수록 환경오염으로 의한 질병에 취약하다.
+                        오염은 단지 자연보호 차원의 문제가 아니며, 인간의 복지와 건강에 영향을 미치는 심각하고, 전반적인 문제가 되었다.
+                        오염, 빈곤, 취약한 건강, 사회적 불평등은 모두 긴밀히 연관된 문제이기에, ESG의 중요성이 대두되는 지금, 우리는 환경과 건강에 대해 이해하고 함께 고민해야 한다.
+                        환경오염 요인 중 가장 많은 사망자를 야기하는 심각한 문제로 대기오염과 수질오염이 있다.
+                        따라서 대기질과 수질의 변화 양상 및 건강에 미치는 영향을 시각화하여 경각심을 제고하고, 사회 문제에 대한 해결 방안을 제시한다.</p>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-lg-4">
-                      <div class="form-group">
-                        <label class="form-control-label" for="input-city">City</label>
-                        <input type="text" id="input-city" class="form-control form-control-alternative" placeholder="City" value="New York">
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="form-group">
-                        <label class="form-control-label" for="input-country">Country</label>
-                        <input type="text" id="input-country" class="form-control form-control-alternative" placeholder="Country" value="United States">
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="form-group">
-                        <label class="form-control-label" for="input-country">Postal code</label>
-                        <input type="number" id="input-postal-code" class="form-control form-control-alternative" placeholder="Postal code">
+<!--                  <div class="row">-->
+<!--                    <div class="col-lg-4">-->
+<!--                      <div class="form-group">-->
+<!--                        <label class="form-control-label" for="input-city">City</label>-->
+<!--                        <input type="text" id="input-city" class="form-control form-control-alternative" placeholder="City" value="New York">-->
+<!--                      </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-4">-->
+<!--                      <div class="form-group">-->
+<!--                        <label class="form-control-label" for="input-country">Country</label>-->
+<!--                        <input type="text" id="input-country" class="form-control form-control-alternative" placeholder="Country" value="United States">-->
+<!--                      </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-4">-->
+<!--                      <div class="form-group">-->
+<!--                        <label class="form-control-label" for="input-country">Postal code</label>-->
+<!--                        <input type="number" id="input-postal-code" class="form-control form-control-alternative" placeholder="Postal code">-->
+<!--                      </div>-->
+<!--                    </div>-->
+<!--                  </div>-->
+                </div>
+                <hr class="my-4" />
+                <!-- 프로젝트 사용 데이터 -->
+                <h3 class=" text-muted mb-4">프로젝트 사용 데이터</h3>
+                <div class="row">
+                  <div class="col">
+                    <div class="card shadow">
+<!--                      <div class="card-header border-0">-->
+<!--                        <h3 class="mb-0">표 제목</h3>-->
+<!--                      </div>-->
+                      <div class="table-responsive">
+                        <table class="table align-items-center table-flush">
+                          <thead class="thead-light">
+                            <!-- 열 제목 -->
+                            <tr>
+                              <th scope="col" style="font-size: 0.85rem;"> 데이터</th>
+                              <th scope="col" style="font-size: 0.85rem;"> 출처</th>
+                              <th scope="col" style="font-size: 0.85rem;"> 사이트 주소</th>
+                            </tr>
+                          </thead>
+                          <!-- 표 데이터 -->
+                          <tbody>
+                            <!-- 1행 -->
+                            <tr>
+                              <th scope="row">
+                                <div class="media align-items-center">
+                                  <div class="media-body">
+                                    <span class="mb-0 text-md"> 지역사회 건강 결과 및 건강결정요인</span>
+                                  </div>
+                                </div>
+                              </th>
+                              <td> 질병관리청 </td>
+                              <td>
+                                <span class="badge badge-dot mr-4">
+                                  <a href=' https://chs.kdca.go.kr/chs/recsRoom/dataBaseMain.do' class="font-weight-bold ml-1" target="_blank" style="color: #5e6a88;">
+                                    <i class="bg-warning"></i> https://chs.kdca.go.kr/chs/recsRoom/dataBaseMain.do</a>
+                                </span>
+                              </td>
+                            <!-- 2행 -->
+                            <tr>
+                              <th scope="row">
+                                <div class="media align-items-center">
+                                  <div class="media-body">
+                                    <span class="mb-0 text-md"> 지역별 상수도 수질 데이터 </span>
+                                  </div>
+                                </div>
+                              </th>
+                              <td> 국가상수도정보시스템 </td>
+                              <td>
+                                <span class="badge badge-dot mr-4">
+                                  <a href='https://www.waternow.go.kr/web/lawData?pMENUID=4' class="font-weight-bold ml-1" target="_blank" style="color: #5e6a88;">
+                                    <i class="bg-success"></i> https://www.waternow.go.kr/web/lawData?pMENUID=4 </a>
+                                </span>
+                              </td>
+                            <!-- 3행 -->
+                            <tr>
+                              <th scope="row">
+                                <div class="media align-items-center">
+                                  <div class="media-body">
+                                    <span class="mb-0 text-md"> 지역별 대기질 데이터 </span>
+                                  </div>
+                                </div>
+                              </th>
+                              <td> 국가통계포털 </td>
+                              <td>
+                                <span class="badge badge-dot mr-4">
+                                  <a href='https://kosis.kr/index/index.do' class="font-weight-bold ml-1" target="_blank" style="color: #5e6a88;">
+                                    <i class="bg-danger"></i> https://kosis.kr/index/index.do </a>
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </div>
                   </div>
                 </div>
                 <hr class="my-4" />
-                <!-- Description -->
-                <h6 class="heading-small text-muted mb-4">About me</h6>
-                <div class="pl-lg-4">
-                  <div class="form-group">
-                    <label>About Me</label>
-                    <textarea rows="4" class="form-control form-control-alternative" placeholder="A few words about you ...">A beautiful Dashboard for Bootstrap 4. It is Free and Open Source.</textarea>
-                  </div>
+                <!-- 프로젝트 사용 데이터 -->
+                <h3 class=" text-muted mb-4">프로젝트 개발환경 및 도구</h3>
+                <div class="">
+                    <img src="static/assets/img/theme/tools.png" style="width: -webkit-fill-available;">
                 </div>
-              </form>
+              </div>
             </div>
           </div>
-        </div>
+        <!-- 2번째 컨텐츠 끝 -->
+        <!-- 3번째 컨텐츠 : 팀원 -->
+        <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
+          <div class="card bg-secondary shadow">
+          <div class="card-header bg-white border-0">
+              <div class="row align-items-center">
+                <div class="col-12">
+                  <h2 class="mb-0">프로젝트 팀</h2>
+                </div>
+              </div>
+            </div>
+            <!-- 2번째 컨텐츠 글자들 -->
+            <div class="card-body">
+              <div class="pl-lg-4">
+                <div class="media align-items-center">
+                  <a href="#" class="avatar rounded-circle mr-3">
+                    <img src="static/assets/img/theme/bootstrap.jpg" alt="user">
+                  </a>
+                  <div>
+                    <p class="text-info mb-1">이재웅</p>
+                    <p class="mb-0"> 기획, 데이터 전처리 및 분석 </p>
+                    <p><a href="https://github.com/jaywoong" target="_blank">
+                      <img src="/static/assets/img/icons/common/github.svg"> &nbsp; Github </a></p>
+                  </div>
+                </div>
+                <hr class="my-4" />
+              </div>
+              <div class="pl-lg-4">
+                <div class="media align-items-center">
+                  <a href="#" class="avatar rounded-circle mr-3">
+                    <img src="static/assets/img/theme/bootstrap.jpg" alt="user">
+                  </a>
+                  <div>
+                    <p class="text-info mb-1">서미오</p>
+                    <p class="mb-0"> 웹 구현, 데이터 전처리 및 시각화</p>
+                    <p><a href="https://github.com/mmeooo" target="_blank">
+                      <img src="/static/assets/img/icons/common/github.svg"> &nbsp; Github </a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
+        <!-- 3번째 컨텐츠 끝 -->
+      </div>
+      <!-- row 끝 -->
       <!-- Footer -->
       <footer class="footer">
         <div class="row align-items-center justify-content-xl-between">
@@ -273,18 +328,16 @@
         </div>
       </footer>
     </div>
-  </div>
-
+    <!-- 2,3번째 container 끝 -->
+</div>
+  <!-- 메인화면 끝 -->
   <!--   Core   -->
   <script src="{% static './assets/js/plugins/jquery/dist/jquery.min.js' %}"></script>
   <script src="{% static './assets/js/plugins/bootstrap/dist/js/bootstrap.bundle.min.js' %}"></script>
   <!--   Optional JS   -->
-  <script src="{% static './assets/js/plugins/chart.js/dist/Chart.min.js' %}"></script>
-  <script src="{% static './assets/js/plugins/chart.js/dist/Chart.extension.js' %}"></script>
   <!--   Argon JS   -->
   <script src="{% static './assets/js/argon-dashboard.min.js' %}"></script>
   <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
-
   <script>
     window.TrackJS &&
       TrackJS.install({
