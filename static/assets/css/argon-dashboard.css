@@ -15,6 +15,14 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
+
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
   --blue: #5e72e4;
   --indigo: #5603ad;
@@ -59,8 +67,10 @@
   box-sizing: border-box;
 }
 
+
+
 html {
-  font-family:  sans-serif;
+  font-family: 'GongGothicMedium', 'GongGothicMedium', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -71,6 +81,7 @@ html {
 @-ms-viewport {
   width: device-width;
 }
+
 
 
 article,
@@ -88,7 +99,7 @@ section {
 
 body {
   margin: 0;
-  font-family:  'Open Sans', sans-serif;
+  font-family: 'GongGothicMedium', 'GongGothicMedium', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -16895,7 +16906,7 @@ textarea[resize="horizontal"] {
 .navbar-vertical .navbar-nav .nav-link {
   padding-left: 1rem;
   padding-right: 1rem;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 .navbar-vertical .navbar-nav .nav-link.active {
@@ -16913,7 +16924,7 @@ textarea[resize="horizontal"] {
 
 .navbar-vertical .navbar-nav .nav-link>i {
   min-width: 2.25rem;
-  font-size: .9375rem;
+  font-size: 1.25rem;
   line-height: 1.5rem;
 }
 
