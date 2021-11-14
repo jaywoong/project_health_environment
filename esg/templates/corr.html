@@ -14,6 +14,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
   <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
   <link href="{% static './assets/js/plugins/nucleo/css/nucleo.css' %}" rel="stylesheet" />
   <link href="{% static './assets/js/plugins/@fortawesome/fontawesome-free/css/all.min.css' %}" rel="stylesheet" />
   <!-- CSS Files -->
@@ -61,30 +62,30 @@
           </div>
         </div>
         <!-- Navigation -->
-        <ul class="navbar-nav">
+        <ul class="navbar-nav" >
           <li class="nav-item  active ">
-            <a class="nav-link  active " href="/home">
-              <i class="ni ni-atom text-indigo"></i> 프로젝트 개요
+            <a class="nav-link  active " href="/home" style="font-size: 1.1rem;">
+              <i class="fa fa-lightbulb text-indigo"></i> 프로젝트 개요
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="/health">
-              <i class="ni ni-like-2 text-orange"></i> 건강 데이터 시각화
+            <a class="nav-link " href="/health" style="font-size: 1.1rem;">
+              <i class="fa fa-heartbeat text-orange"></i> 건강 데이터 시각화
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="/environment">
-              <i class="ni ni-world text-green"></i> 환경 데이터 시각화
+            <a class="nav-link " href="/environment" style="font-size: 1.1rem;">
+              <i class="fa fa-tree text-green"></i> 환경 데이터 시각화
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="/corr">
-              <i class="ni ni-chart-bar-32 text-yellow"></i> 환경과 건강 상관관계
+            <a class="nav-link " href="/corr" style="font-size: 1.1rem;">
+              <i class="fa fa-line-chart text-yellow"></i> 환경과 건강 상관관계
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="/use">
-              <i class="ni ni-spaceship text-gray-dark"></i> 활용방안
+            <a class="nav-link " href="/use" style="font-size: 1.1rem;">
+              <i class="fa fa-handshake text-gray-dark"></i> 활용방안
             </a>
           </li>
         </ul>
@@ -206,12 +207,6 @@
         <div class="col-xl mb-5 mb-xl-0">
           <div class="card bg-gradient-white shadow">
             <div class="card-header bg-transparent">
-              <div class="row align-items-center">
-                <div class="col">
-                  <h6 class="text-uppercase text-light ls-1 mb-1">시각화</h6>
-                  <h2 class="text-white mb-0">대시보드</h2>
-                </div>
-              </div>
             </div>
             <div class="card-body" >
               <!-- Chart -->
