@@ -195,11 +195,16 @@ for i in range(0,6):
 
 <img src="md-images/health.png" alt="health" style="zoom: 50%;" />
 
+* 지역별 남녀 인구수, 연령대별 인구수, 의료 인프라 수, 정신건강 발생수, 호흡기질환 발생수, 수인성질병 발생수 등 다양한 데이터를 한눈에 확인할 수 있도록 Tableau를 활용해 시각화.
 
+  
 
 ### :two: 환경 데이터 시각화
 
 <img src="md-images/waterair.png" alt="waterair" style="zoom:50%;" />
+
+* 수질지표와 환경배출량(폐수방류량, 유기물질부하량방류량) 간 상관관계 파악을 위하여 Tableau를 활용해 시각화. 
+* 대기질지표와 환경배출량(화학물질배출량, 발암우려물질배출량) 간 상관관계 파악을 위하여 Tableau를 활용해 시각화. 
 
 
 
@@ -207,7 +212,19 @@ for i in range(0,6):
 
 <img src="md-images/corr.png" alt="corr" style="zoom:50%;" />
 
+* 정신건강 지표와 수질지표, 대기질지표 간 상관관계 파악을 위하여 Tableau를 활용해 시각화. 
 
+
+
+<img src="md-images/airdisease.png" alt="airdisease" style="zoom:50%;" />
+
+* 호흡기질환과 수질지표, 대기질지표 간 상관관계 파악을 위하여 Tableau를 활용해 시각화. 
+
+
+
+<img src="md-images/waterdisease.png" alt="waterdisease" style="zoom:50%;" />
+
+* 수인성질병과 수질지표, 대기질지표 간 상관관계 파악을 위하여 Tableau를 활용해 시각화. 
 
 
 
