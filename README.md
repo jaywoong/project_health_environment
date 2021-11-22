@@ -195,13 +195,19 @@ for i in range(0,6):
 
 <img src="md-images/health.png" alt="health" style="zoom: 50%;" />
 
+
+
 ### :two: 환경 데이터 시각화
 
 <img src="md-images/waterair.png" alt="waterair" style="zoom:50%;" />
 
+
+
 ### :three: 건강과 환경 상관관계 시각화
 
 <img src="md-images/corr.png" alt="corr" style="zoom:50%;" />
+
+
 
 
 
